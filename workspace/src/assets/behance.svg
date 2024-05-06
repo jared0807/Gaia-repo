@@ -1,0 +1,42 @@
+var _circle, _path, _path2, _path3;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgBehance(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 40,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 20,
+    cy: 20,
+    r: 20,
+    fill: "#5498FF"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M18.8723 18.553C19.2552 17.9785 19.4467 17.3084 19.4467 16.5424C19.4467 14.5319 17.7234 13 15.8086 13H10.2556C9.96834 13 9.77686 13.1915 9.77686 13.4787V25.6378C9.77686 25.9251 9.96834 26.1165 10.2556 26.1165H16.383C18.6808 26.1165 20.5956 24.2975 20.5956 21.9997C20.5956 20.5636 19.9254 19.3189 18.8723 18.553ZM12.1704 15.4893H15.8086C16.4787 15.4893 16.9574 16.0637 16.9574 16.6382C16.9574 17.3084 16.383 17.7871 15.8086 17.7871H12.1704V15.4893ZM16.4787 23.723H12.1704V20.2763H16.4787C17.4362 20.2763 18.2021 21.0423 18.2021 21.9997C18.2021 22.9571 17.4362 23.723 16.4787 23.723Z",
+    fill: "#171717"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M31.2229 21.138C31.2229 18.2658 29.0209 15.968 26.2444 15.968C23.4679 15.968 21.2658 18.2658 21.2658 21.138C21.2658 24.0103 23.4679 26.308 26.2444 26.308C27.872 26.308 29.4038 25.4464 30.3612 24.0103C30.457 23.8188 30.5527 23.6273 30.6485 23.4358C30.7442 23.3401 30.6484 23.1486 30.457 23.1486H28.0634C27.9677 23.1486 27.9677 23.1486 27.872 23.2443C27.3932 23.723 26.8188 23.9145 26.2444 23.9145C24.9997 23.9145 24.0423 23.0528 23.7551 21.8082H30.7442C31.0314 21.8082 31.2229 21.6167 31.2229 21.3295V21.138ZM26.2444 18.4573C27.106 18.4573 27.872 18.936 28.3507 19.7019H24.138C24.521 18.936 25.3827 18.4573 26.2444 18.4573Z",
+    fill: "#171717"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M28.2549 15.3935H23.8508C23.6593 15.3935 23.4679 15.2021 23.4679 15.0106V13.9574C23.4679 13.7659 23.6593 13.5745 23.8508 13.5745H28.2549C28.4464 13.5745 28.6379 13.7659 28.6379 13.9574V15.1063C28.6379 15.2021 28.5421 15.3935 28.2549 15.3935Z",
+    fill: "#171717"
+  })));
+}
+
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBehance);
+export default __webpack_public_path__ + "static/media/behance.d6d1e3ef5411b1dfd2082e19aeaf1fe6.svg";
+export { ForwardRef as ReactComponent };

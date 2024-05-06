@@ -1,0 +1,9 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#canvasID {\n    position: absolute;\n    z-index: -1;\n    top: 0;\n    left: 0;\n    pointer-events: none;\n}\n", "",{"version":3,"sources":["webpack://./src/sections/RoadMap/components/Three/canvas.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,WAAW;IACX,MAAM;IACN,OAAO;IACP,oBAAoB;AACxB","sourcesContent":["#canvasID {\n    position: absolute;\n    z-index: -1;\n    top: 0;\n    left: 0;\n    pointer-events: none;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {};
+export default ___CSS_LOADER_EXPORT___;

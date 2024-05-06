@@ -1,0 +1,33 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgFacebook(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "#fff",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM14.4606 9.05191C14.4858 9.02667 14.5 8.99244 14.5 8.95675V7.50822C14.5 7.47559 14.4881 7.44408 14.4666 7.41955C14.4451 7.39502 14.4154 7.37914 14.3831 7.37486C14.2235 7.35374 13.7039 7.31 13.1159 7.31C11.7483 7.31 10.8989 8.18175 10.8989 9.58533V10.6451H9.63457C9.59888 10.6451 9.56465 10.6593 9.53942 10.6845C9.51418 10.7097 9.5 10.744 9.5 10.7797V12.399C9.5 12.4346 9.51418 12.4689 9.53942 12.4941C9.56465 12.5193 9.59888 12.5335 9.63457 12.5335H10.8989V16.5544C10.8989 16.5901 10.913 16.6243 10.9383 16.6495C10.9635 16.6748 10.9978 16.689 11.0334 16.689H12.7054C12.741 16.689 12.7753 16.6748 12.8005 16.6495C12.8257 16.6243 12.8399 16.5901 12.8399 16.5544V12.5335H14.1002C14.1329 12.5335 14.1645 12.5216 14.1891 12.5C14.2136 12.4784 14.2295 12.4486 14.2337 12.4162L14.4429 10.7969C14.4477 10.7585 14.4358 10.7199 14.4104 10.6908C14.3849 10.6618 14.3481 10.6451 14.3094 10.6451H12.8399V9.74561C12.8399 9.31202 12.9433 9.09186 13.5086 9.09186L14.3654 9.09132C14.4011 9.09132 14.4353 9.07714 14.4606 9.05191Z",
+    fill: "#5498FF"
+  })));
+}
+
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgFacebook);
+export default __webpack_public_path__ + "static/media/facebook.a096b1333dc02318373508fe94e90d0e.svg";
+export { ForwardRef as ReactComponent };

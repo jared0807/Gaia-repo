@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".Button_button__wiIYs {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n\n    min-width: 139px;\n    height: 37px;\n\n    padding: 4px 30px 2px;\n\n    font-family: 'Inter', sans-serif;\n    font-size: 14px;\n    font-weight: 600;\n    letter-spacing: 0.02em;\n\n    background: rgba(58, 110, 232, 0.2);\n    border: 1px solid #3A6EE8;\n    box-sizing: border-box;\n    border-radius: 5px;\n\n    color: #fff;\n\n    transition: all .2s;\n    cursor: pointer;\n}\n\n.Button_button__wiIYs:hover {\n    box-shadow: inset 0 0 8px hsl(0deg 0% 100% / 25%);\n    border-color: #04a8f0;\n}\n\n@media (max-width: 991px) {\n    .Button_button__wiIYs {\n        height: 35px;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/Button/Button.module.css"],"names":[],"mappings":"AAAA;IACI,oBAAoB;IACpB,uBAAuB;IACvB,mBAAmB;;IAEnB,gBAAgB;IAChB,YAAY;;IAEZ,qBAAqB;;IAErB,gCAAgC;IAChC,eAAe;IACf,gBAAgB;IAChB,sBAAsB;;IAEtB,mCAAmC;IACnC,yBAAyB;IACzB,sBAAsB;IACtB,kBAAkB;;IAElB,WAAW;;IAEX,mBAAmB;IACnB,eAAe;AACnB;;AAEA;IACI,iDAAiD;IACjD,qBAAqB;AACzB;;AAEA;IACI;QACI,YAAY;IAChB;AACJ","sourcesContent":[".button {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n\n    min-width: 139px;\n    height: 37px;\n\n    padding: 4px 30px 2px;\n\n    font-family: 'Inter', sans-serif;\n    font-size: 14px;\n    font-weight: 600;\n    letter-spacing: 0.02em;\n\n    background: rgba(58, 110, 232, 0.2);\n    border: 1px solid #3A6EE8;\n    box-sizing: border-box;\n    border-radius: 5px;\n\n    color: #fff;\n\n    transition: all .2s;\n    cursor: pointer;\n}\n\n.button:hover {\n    box-shadow: inset 0 0 8px hsl(0deg 0% 100% / 25%);\n    border-color: #04a8f0;\n}\n\n@media (max-width: 991px) {\n    .button {\n        height: 35px;\n    }\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"button": "Button_button__wiIYs"
+};
+export default ___CSS_LOADER_EXPORT___;

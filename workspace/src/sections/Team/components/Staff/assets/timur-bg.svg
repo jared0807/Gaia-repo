@@ -1,0 +1,45 @@
+var _path, _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgTimurBg(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 231,
+    height: 267,
+    viewBox: "0 0 231 267",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M3.5 225C2.5 238.667 0.5 266.2 0.5 267L231 261.5L228 246L225.5 232L222 216.5L218 202L214 189.5L210 177.5L206 168L204.5 160L202 152.5L199 148.5L185.5 139.5L176.5 134L175.5 132L172.5 130L168 126L165 120L161.5 115L159 113L162 106.5L166.5 97L169 88.5L172.5 87.5L175.5 84.5L177 79V72L176 65L174 63.5L176 57.5L177.5 51V43L176 34.5L173 26L169 20.5L163 13.5L158 9.5L154 0L152 0.5L151.5 3V7L143 5L142.5 4.5L139 3.5H131.5L122.5 4.5L111.5 8.5L104.5 13L98.5 16L92 23.5L87 32.5L85.5 36.5L81 25H79L73 7L70.5 7.5V13.5L71 18.5L74.5 30.5V32.5L84 63L82.5 64L81 67.5L80.5 71.5V76.5C81 78.5 82.1 82.5 82.5 82.5C82.9 82.5 84.6667 85.8333 85.5 87.5L90.5 90.5H93.5L98 89.5L99 91L92.5 96.5L91 98.5L89.5 106H89H88L86 108.5L85 110.5H83L82.5 111.5L81 115L78.5 117.5L74 119L67.5 123.5L58.5 127L37.5 133L29.5 141.5L15 170.5L4.5 195.5L3.5 225Z",
+    fill: "url(#paint0_linear_371_883)",
+    fillOpacity: 0.2
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_371_883",
+    x1: 115.75,
+    y1: 0,
+    x2: 115.75,
+    y2: 267,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#5498FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#5498FF",
+    stopOpacity: 0
+  })))));
+}
+
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgTimurBg);
+export default __webpack_public_path__ + "static/media/timur-bg.59d42090b1c4549f891ce2a53b147339.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,14 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".App_slide__oSV16 {\n  height: 100%;\n}\n\n.App_slidePromo__-jue3 {\n  transition: 0.5s ease-in-out;\n}\n\n.App_slideShow__67m76 {\n  opacity: 1;\n}\n\n.App_slideHide__KTAt8 {\n  opacity: 0.15;\n}\n", "",{"version":3,"sources":["webpack://./src/App.module.css"],"names":[],"mappings":"AAAA;EACE,YAAY;AACd;;AAEA;EACE,4BAA4B;AAC9B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;AACf","sourcesContent":[".slide {\n  height: 100%;\n}\n\n.slidePromo {\n  transition: 0.5s ease-in-out;\n}\n\n.slideShow {\n  opacity: 1;\n}\n\n.slideHide {\n  opacity: 0.15;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"slide": "App_slide__oSV16",
+	"slidePromo": "App_slidePromo__-jue3",
+	"slideShow": "App_slideShow__67m76",
+	"slideHide": "App_slideHide__KTAt8"
+};
+export default ___CSS_LOADER_EXPORT___;
